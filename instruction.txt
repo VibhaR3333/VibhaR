@@ -1,0 +1,27 @@
+vscode
+------------------------------------------------------------------------------
+inatall python
+check version:
+ python --version
+------------------------------------------------------------------------------
+packages to install
+1 Django
+------------------------------------------------------------------------------
+create superuser
+run:
+1 python manage.py migrate
+2 python manage.py createuperuser
+  2.1 specify:
+      name , email , password
+      then (Y/N):Y
+      press enter
+-------------------------------------------------------------------------------
+to run the code:
+python manage.py runserver
+-------------------------------------------------------------------------------
+steps:
+1 extract file
+2 open it in vscode
+3 install Django
+4 create superuser
+5 run it
